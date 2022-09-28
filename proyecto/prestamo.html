@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/proyecto/img/icono_libro_abierto_sencillo.png">
+    <link rel="stylesheet" href="/proyecto/boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/proyecto/css/main.css">
+    <title>Prestamo</title>
+</head>
+
+<body>
+
+    <header class="container-fluid p-2 bg-primary bg-gradient">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="Inicio.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="/proyecto/img/icons8-estante-de-libro-48.png" width="40px" height="auto">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-white fw-bold">BIBLIOTECA</a></li>
+            </ul>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-warning">Salir</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <div class="container">
+        <form class="row g-3 mt-3">
+            <div class="col-6">
+                    <div class="input-group"> 
+                    <span class="input-group-text">CODIGO</span>
+                    <input id="Codi_libro" type="text" class="form-control" placeholder="Libro">
+                    </div>
+            </div>
+            <div class="col-6 mt-3">
+                <div class="input-group">
+                    <input id="Nombre" type="text" class="form-control" placeholder="Nombres">
+                    <input id="Apellidos" type="text" class="form-control" placeholder="Apellidos">
+                </div>
+                
+            </div>
+
+            <div class="col-6">
+                <label for="Fecha_prestamo" class="form-label">Fecha del prestamo</label>
+                <input id="Fecha_prestamo" type="date" class="form-control">
+            </div>
+            <div class="col-6">
+                <label for="Fecha_devolucion" class="form-label">Fecha de devolucion</label>
+                <input id="Fecha_devolucion" type="date" class="form-control">
+            </div>
+
+            
+                <button class="btn btn-primary btn-block" type="submit">Enviar Solicitud</button>
+            
+
+        </form>
+
+
+       </div>
+
+
+
+      <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="/proyecto/img/icono_libro_abierto_sencillo.png" width="50px" height="auto">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; Biblioteca</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><img src="/proyecto/img/twitter.svg" width="24px" height="auto"></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><img src="/proyecto/img/instagram.svg" width="24px" height="auto"></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><img src="/proyecto/img/facebook.svg" width="24px" height="auto"></a></li>
+          </ul>
+        </footer>
+    </div>
+      
+    <script src="/proyecto/boostrap/bootstrap.bundle.min.js"></script>
+    <script src="/proyecto/boostrap/bootstrap.bundle.min.js.map"></script> 
+    
+</body>
+
+</html>
